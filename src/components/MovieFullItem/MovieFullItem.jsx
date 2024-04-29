@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import classes from './MovieFullItem.module.css';
+import VkIcon from '../UI/Logo/VkIcon';
 export default function MovieFullItem({ data }) {
 	const [genreName, setGenreName] = useState('');
 	const genre = (num) => {
@@ -49,12 +50,14 @@ export default function MovieFullItem({ data }) {
 				</div>
 				<p className={classes.movie_overview}>{data.overview}</p>
 				<div className={classes.movie_rating}>
+					<VkIcon height="45px" width="45px" />
 					<div className={classes.movie_rating__box}>
 						<span className={classes.movie_rating__box_text}>
 							{data.vote_average.toString().substring(0, 3)}
 						</span>
 					</div>
-					{/* <h3 className={classes.movie_name}>бля</h3> */}
+
+					<h3 className={classes.movie_rating__text}>Vote average</h3>
 				</div>
 			</div>
 		</div>

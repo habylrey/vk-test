@@ -73,7 +73,8 @@
     height: 55px;
     padding: 5px 5px;
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
 }
 .movie_rating__box{
     background-color: rgba(128, 128, 128, 0.326);
@@ -87,6 +88,12 @@
 .movie_rating__box_text {
     background-color: transparent;
     color: white;
+}
+.movie_rating__text {
+    color: gray;
+    font-size: 15px;
+    font-weight: 200;
+    background: transparent;
 }
 
 /* movie */

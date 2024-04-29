@@ -1,0 +1,11 @@
+.icon_s{
+    height: 35px;
+    transition: .2s;
+}
+.icon_s:hover{
+    fill: rgba(255, 255, 255, 0.668);
+    cursor: pointer;
+}
+.icon_xs{
+    height: 12px;
+}

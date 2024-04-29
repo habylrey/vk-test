@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'VkSansDisplay';
+  src: url(./assets/fonts/VKSansDisplay-Medium.ttf);
+}
+*{
+  box-sizing: border-box;
+  margin: 0 0;
+  background-color: #242424;
+  font-family:'VkSansDisplay', 'sans-serif';
+  
+}
+main{
+  height: 100%;
+}
+.header {
+  position: relative;
+}

@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    gap: 40px;
+    user-select: none;
+}
+.pagination_text {
+    color: gray;
+    cursor: pointer;
+    font-weight: 150;
+}
+.disable {
+    display: none;
+}

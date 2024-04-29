@@ -1,0 +1,22 @@
+.logo_wrap{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    background: transparent;
+    text-decoration: none;
+
+}
+.logo_text{
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    background: transparent;
+
+}
+@media screen and (max-width:860px) {
+    .logo_text {
+        display: none;
+    }
+}

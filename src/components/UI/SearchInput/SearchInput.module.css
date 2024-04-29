@@ -1,0 +1,19 @@
+.searchInput_wrap {
+    position: relative;
+    background: transparent;
+    
+}
+.searchInput_icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:555px) {
+ .searchInput_icon {
+    display: none;
+ }
+}

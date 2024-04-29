@@ -1,0 +1,23 @@
+.movieBlock {
+    width: 80%;
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:430px) {
+  .movieBlock {
+    width: 95%;
+    gap: 15px;
+  }
+}
+@media screen and (max-width:860px) {
+    .container {
+    margin-top: 15px;
+    }
+}

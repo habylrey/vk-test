@@ -78,12 +78,11 @@
 }
 .movie_rating__box{
     background-color: rgba(128, 128, 128, 0.326);
-    height: 45px;
     border-radius: 10px;
-    width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 11px 12px;
 }
 .movie_rating__box_text {
     background-color: transparent;
@@ -107,4 +106,7 @@
  .movie_about {
     align-items: center;
  }
+ .movie_rating__box{
+    padding: 8px 9px;
+}
 }

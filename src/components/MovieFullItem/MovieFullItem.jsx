@@ -44,9 +44,6 @@ export default function MovieFullItem({ data }) {
 					<p className={classes.movie_info__text}>
 						{data.genres[0].name}
 					</p>
-					<p className={classes.movie_info__text}>
-						{data.genres[1].name ? data.genres[1].name : ''}
-					</p>
 				</div>
 				<p className={classes.movie_overview}>{data.overview}</p>
 				<div className={classes.movie_rating}>

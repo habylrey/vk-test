@@ -20,7 +20,6 @@ export default function MoviePage() {
 			}`
 		);
 		setMovieData(response.data);
-		// console.log(movieData, 'response');
 	}
 
 	return (
@@ -35,4 +34,3 @@ export default function MoviePage() {
 		</>
 	);
 }
-// `https://api.themoviedb.org/3/movie/${id}?api_key=${import.meta.env.VITE_API_KEY}`

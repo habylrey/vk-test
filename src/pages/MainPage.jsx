@@ -20,7 +20,6 @@ function MainPage() {
 			}&page=${currentPage}`
 		);
 
-		console.log(response);
 		setData(response.data['results']);
 		setVisible(false);
 	}

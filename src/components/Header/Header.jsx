@@ -8,11 +8,11 @@ export default function Header() {
 			<div className={classes.header_alert}>
 				Для корректной работы сайта рекомендуется включение VPN!
 			</div>
-			<div className={classes.header_container}>
+			<nav className={classes.header_container}>
 				<VkinoLogo />
 				<SearchInput />
 				<User />
-			</div>
+			</nav>
 		</header>
 	);
 }

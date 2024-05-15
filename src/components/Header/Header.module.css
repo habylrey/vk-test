@@ -8,7 +8,6 @@
     position: absolute;
     width: 100%;
     background-color: #3b3b3b;
-    /* color: #242424; */
     color: #FFF;
     top: 0;
     padding: 5px 0;
@@ -20,7 +19,7 @@
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 75%;
     margin-top: 20px;
 }
 @media screen and (max-width:860px) {

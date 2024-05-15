@@ -1,6 +1,6 @@
 import Header from './../components/Header/Header';
 import Footer from './../components/Footer/Footer';
-import { BrowserRouter, Routes, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './../styles/MoviePage.css';

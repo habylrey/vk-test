@@ -16,9 +16,10 @@
 .movie_poster {
     width: 100%;
     max-width: 345px;
-    height: 500px;
+    max-height: 500px;
+    height: 100%;
     border-radius: 30px;
-    object-fit: contain;
+    object-fit: cover;
     cursor: pointer;
 }
 .movie_hover {
@@ -69,7 +70,8 @@
     margin: 15px 0;
     background-color: #46464642;
     border-radius: 10px;
-    width: 40%;
+    width: 100%;
+    max-width: 180px;
     height: 55px;
     padding: 5px 5px;
     display: flex;
@@ -95,9 +97,12 @@
     background: transparent;
 }
 
-/* movie */
-
-@media screen and (max-width: 530px) {
+@media screen and (max-width:860px) {
+    .movie {
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width: 670px) {
  .movie {
     flex-direction: column;
     align-items: center;
@@ -108,5 +113,17 @@
  }
  .movie_rating__box{
     padding: 8px 9px;
+}
+.movie_poster {
+    width: 100%;
+    max-width: 345px;
+    height: 500px;
+    border-radius: 30px;
+}
+.movie_hover {
+    width: 100%;
+    max-width: 345px;
+    height: 500px;
+    border-radius: 30px;
 }
 }

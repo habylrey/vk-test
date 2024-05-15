@@ -1,12 +1,5 @@
-import { useState } from 'react';
 import classes from './MovieFullItem.module.css';
 export default function MovieFullItem({ data }) {
-	const [genreName, setGenreName] = useState('');
-	const genre = (num) => {
-		setGenreName(data.genres[num].name);
-		return genreName;
-	};
-
 	return (
 		<div className={classes.movie}>
 			<div className={classes.movie_image__wrap}>
